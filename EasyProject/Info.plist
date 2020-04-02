@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问照相机进行拍照上传</string>
+	<key>NSContactsUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问通讯录选择联系人</string>
+	<key>NSLocationUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问您的位置进行定位</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问您的位置进行定位</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问麦克风进行录音</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来保存图片到相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>"EasyProject"需要您的同意，来访问相册进行照片上传</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>
